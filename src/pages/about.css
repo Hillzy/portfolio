@@ -60,7 +60,7 @@
   color: var(--code-dot);
 }
 .code-indent4::before {
-  content: ". . . . . . ";
+  content: ". . . . . . . . ";
   color: var(--code-dot);
 }
 
