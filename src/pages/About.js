@@ -235,8 +235,9 @@ const About = props => {
       <div className="about-output-wrapper">
         <h1>About Me</h1>
         <p>
-          Hey! Im Liam Hillier from Melbourne, Australia. <br />I have a passion
-          for the digital space and my love for creating engaging and
+          Hey! Im <span className="code-alt">Liam Hillier</span> from{" "}
+          <span className="code-alt">Melbourne, Australia</span>. <br />I have a
+          passion for the digital space and my love for creating engaging and
           eyecatching websites is what drives me.
           <br /> <br />
           My professional experience includes:
@@ -246,7 +247,8 @@ const About = props => {
         <li>2015 - 2017: Website Developer at DC Website Solutions</li>
         <li>2014 - Present: Freelance Front-end Developer</li>
         <br />
-        Feel free to contact me at hillierliam37@gmail.com
+        Feel free to contact me at{" "}
+        <span className="code-alt">hillierliam37@gmail.com</span>
       </div>
     </div>
   );

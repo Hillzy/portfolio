@@ -23,7 +23,14 @@ class App extends Component {
         "highlight-col": "#feda6a",
         "sub-heading-col": "#8d8d8d",
         "tag-col": "#8d8d8d",
-        "text-highlight": "#141518"
+        "text-highlight": "#141518",
+        "code-method": "#d18400",
+        "code-var": "#005ca8",
+        "code-col": "#000000",
+        "code-alt": "#714182",
+        "code-string": "#28961b",
+        "code-dot": "#aeaeb2",
+        "code-hover": "#b2b2b2"
       },
       dark: {
         "background-color": "#1d1e22",
@@ -38,7 +45,8 @@ class App extends Component {
         "code-col": "#CFCFD3",
         "code-alt": "#9899C5",
         "code-string": "#ABE67E",
-        "code-dot": "#3C3E46"
+        "code-dot": "#3C3E46",
+        "code-hover": "#2f3137"
       }
     },
     checked: true
