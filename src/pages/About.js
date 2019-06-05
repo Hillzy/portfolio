@@ -145,6 +145,84 @@ const About = props => {
           <div className="code-num">22</div>
           <div className="code-text code-indent1">&#125;</div>
         </div>
+        <div className="code-line">
+          <div className="code-num">23</div>
+          <div className="code-text code-indent1">
+            <span className="code-method">render</span>( ) &#123;
+          </div>
+        </div>
+        <div className="code-line">
+          <div className="code-num">24</div>
+          <div className="code-text code-indent2">
+            <span className="code-var">return</span> (
+          </div>
+        </div>
+        <div className="code-line">
+          <div className="code-num">25</div>
+          <div className="code-text code-indent3">
+            <span className="code-var">&#60;div&#62;</span>
+          </div>
+        </div>
+        <div className="code-line">
+          <div className="code-num">26</div>
+          <div className="code-text code-indent4">
+            <span className="code-text">Hey! I'm &#123;</span>
+            <span className="code-alt"> this.</span>name &#125; from &#123;
+            <span className="code-alt"> this.</span>location &#125;
+          </div>
+        </div>
+        <div className="code-line">
+          <div className="code-num">27</div>
+          <div className="code-text code-indent4">
+            I have a passion for the digital space, which has evolved
+          </div>
+        </div>
+        <div className="code-line">
+          <div className="code-num">28</div>
+          <div className="code-text code-indent4">
+            into my love for creating engaging and eyecatching websites.
+          </div>
+        </div>
+        <div className="code-line">
+          <div className="code-num">29</div>
+          <div className="code-text code-indent4">
+            <span className="code-var">&#60;br /&#62;</span> My professional
+            experience includes:
+            <span className="code-var"> &#60;br /&#62;</span>
+          </div>
+        </div>
+        <div className="code-line">
+          <div className="code-num">30</div>
+          <div className="code-text code-indent4">
+            &#123;<span className="code-alt"> this.</span>workExperience &#125;
+            <span className="code-var"> &#60;br /&#62;</span>
+          </div>
+        </div>
+        <div className="code-line">
+          <div className="code-num">31</div>
+          <div className="code-text code-indent4">
+            Feel free to contact me at &#123;
+            <span className="code-alt"> this.</span>email &#125;
+          </div>
+        </div>
+        <div className="code-line">
+          <div className="code-num">32</div>
+          <div className="code-text code-indent3">
+            <span className="code-var">&#60;/div&#62;</span>
+          </div>
+        </div>
+        <div className="code-line">
+          <div className="code-num">32</div>
+          <div className="code-text code-indent2">)</div>
+        </div>
+        <div className="code-line">
+          <div className="code-num">33</div>
+          <div className="code-text code-indent1">&#125;</div>
+        </div>
+        <div className="code-line">
+          <div className="code-num">33</div>
+          <div className="code-text code-indent0">&#125;</div>
+        </div>
       </div>
     </div>
   );
