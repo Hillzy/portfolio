@@ -49,14 +49,13 @@ const About = props => {
         <div className="code-line">
           <div className="code-num">7</div>
           <div className="code-text code-indent3">
-            <span className="code-alt">this.</span>name :
-            <span className="code-string"> 'Liam Hillier'</span>,
+            name :<span className="code-string"> 'Liam Hillier'</span>,
           </div>
         </div>
         <div className="code-line">
           <div className="code-num">8</div>
           <div className="code-text code-indent3">
-            <span className="code-alt">this.</span>location :
+            location :
             <span className="code-string"> 'Melbourne, Australia'</span>,
           </div>
         </div>
@@ -103,7 +102,7 @@ const About = props => {
           <div className="code-num">16</div>
           <div className="code-text code-indent4">
             <span className="code-var">&#60;li&#62;</span>2018 - Present:
-            Website Developer at Vain Corp.
+            Website Developer at Vain Corp
             <span className="code-var">&#60;/li&#62;</span>
           </div>
         </div>
@@ -119,7 +118,7 @@ const About = props => {
           <div className="code-num">18</div>
           <div className="code-text code-indent4">
             <span className="code-var">&#60;li&#62;</span>2015-2017: Website
-            Developer at DC Website Solutions.
+            Developer at DC Website Solutions
             <span className="code-var">&#60;/li&#62;</span>
           </div>
         </div>
@@ -127,7 +126,7 @@ const About = props => {
           <div className="code-num">19</div>
           <div className="code-text code-indent4">
             <span className="code-var">&#60;li&#62;</span>2014-Present:
-            Freelance front end develoepr
+            Freelance Front-end Developer
             <span className="code-var">&#60;/li&#62;</span>
           </div>
         </div>
@@ -166,9 +165,17 @@ const About = props => {
         <div className="code-line">
           <div className="code-num">26</div>
           <div className="code-text code-indent4">
+            <span className="code-var">&#60;h1&#62;</span>About me
+            <span className="code-var">&#60;/h1&#62;</span>
+          </div>
+        </div>
+        <div className="code-line">
+          <div className="code-num">26</div>
+          <div className="code-text code-indent4">
             <span className="code-text">Hey! I'm &#123;</span>
-            <span className="code-alt"> this.</span>name &#125; from &#123;
-            <span className="code-alt"> this.</span>location &#125;
+            <span className="code-alt"> this.state.</span>name &#125; from
+            &#123;
+            <span className="code-alt"> this.state.</span>location &#125;
           </div>
         </div>
         <div className="code-line">
@@ -194,7 +201,8 @@ const About = props => {
         <div className="code-line">
           <div className="code-num">30</div>
           <div className="code-text code-indent4">
-            &#123;<span className="code-alt"> this.</span>workExperience &#125;
+            &#123;<span className="code-alt"> this.</span>workExperience()
+            &#125;
             <span className="code-var"> &#60;br /&#62;</span>
           </div>
         </div>
@@ -202,7 +210,7 @@ const About = props => {
           <div className="code-num">31</div>
           <div className="code-text code-indent4">
             Feel free to contact me at &#123;
-            <span className="code-alt"> this.</span>email &#125;
+            <span className="code-alt"> this.state.</span>email &#125;
           </div>
         </div>
         <div className="code-line">
@@ -223,6 +231,22 @@ const About = props => {
           <div className="code-num">33</div>
           <div className="code-text code-indent0">&#125;</div>
         </div>
+      </div>
+      <div className="about-output-wrapper">
+        <h1>About Me</h1>
+        <p>
+          Hey! Im Liam Hillier from Melbourne, Australia. <br />I have a passion
+          for the digital space and my love for creating engaging and
+          eyecatching websites is what drives me.
+          <br /> <br />
+          My professional experience includes:
+        </p>
+        <li>2018 - Present: Website Developer at Vain Corp</li>
+        <li>2018 - 2019: Web Editor at IG Australia</li>
+        <li>2015 - 2017: Website Developer at DC Website Solutions</li>
+        <li>2014 - Present: Freelance Front-end Developer</li>
+        <br />
+        Feel free to contact me at hillierliam37@gmail.com
       </div>
     </div>
   );
