@@ -1,0 +1,55 @@
+.App {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+.appBody {
+  display: inline-block;
+  position: absolute;
+  padding: 50px;
+  width: Calc(100% - 160px);
+  height: Calc(100% - 100px);
+}
+
+@media (max-width: 800px) {
+  .appBody {
+    position: relative;
+    padding: 15px;
+    width: Calc(100% - 30px);
+  }
+  .App {
+    display: block;
+    width: 100vw;
+    height: auto;
+    background-color: var(--background-color);
+    color: var(--text-color);
+  }
+  body {
+    background-color: var(--background-color);
+  }
+}
+
+.tagStyle {
+  font-family: "La Belle Aurore", cursive;
+  font-size: 18px;
+  color: var(--tag-col);
+}
+
+.tagIndentNeg {
+  margin-left: -25px;
+}
+.tagIndentZero {
+  margin-left: 0px;
+}
+.tagIndentOne {
+  margin-left: 25px;
+}
+.tagIndentTwo {
+  margin-left: 50px;
+}
+h1 {
+  margin: 0;
+}

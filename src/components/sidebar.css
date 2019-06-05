@@ -1,0 +1,27 @@
+.Sidebar-container {
+  display: inline-block;
+  background-color: #141518;
+  width: 60px;
+  height: 100vh;
+}
+
+.sidebar {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-areas:
+    "logo"
+    "navbar"
+    "socials";
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.navbar {
+  grid-area: navbar;
+}
+
+@media (max-width: 900px) {
+  .Sidebar-container {
+    display: none;
+  }
+}

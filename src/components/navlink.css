@@ -1,0 +1,77 @@
+.navLink {
+  width: 100%;
+  height: 55px;
+  position: relative;
+  cursor: pointer !important;
+  color: #d4d4dc;
+}
+
+.iconHighlight .icon {
+  color: #feda6a;
+}
+
+.icon {
+  display: block;
+  position: relative;
+  font-size: 22px;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  -moz-transition: all 0.2s ease-in-out 0s;
+  -webkit-transition: all 0.2s ease-in-out 0s;
+  -ms-transition: all 0.2s ease-in-out 0s;
+  transition: all 0.2s ease-in-out 0s;
+  top: 50%;
+  left: 50%;
+  -moz-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.text-container {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  text-transform: uppercase;
+  opacity: 0;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -ms-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.text {
+  text-align: center;
+  font-size: 10px;
+  display: inline-block;
+  position: absolute;
+  top: 28%;
+  left: 50%;
+  -moz-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-weight: 700;
+}
+
+.navLink:hover .text-container,
+.navLink.active .text-container {
+  opacity: 1;
+  color: #feda6a;
+}
+
+.navLink:hover .icon,
+.navLink.active .icon {
+  opacity: 0;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -ms-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+  color: #feda6a;
+}
