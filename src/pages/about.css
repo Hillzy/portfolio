@@ -16,10 +16,14 @@
 
 .about-output-wrapper {
   grid-column-start: 2;
-  text-align: center;
+  text-align: left;
   padding: 0px 50px;
   display: block;
   margin: auto;
+}
+
+.about-output-text {
+  padding: 20% 5%;
 }
 
 .code-line {

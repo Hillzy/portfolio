@@ -233,22 +233,30 @@ const About = props => {
         </div>
       </div>
       <div className="about-output-wrapper">
-        <h1>About Me</h1>
-        <p>
-          Hey! Im <span className="code-alt">Liam Hillier</span> from{" "}
-          <span className="code-alt">Melbourne, Australia</span>. <br />I have a
-          passion for the digital space and my love for creating engaging and
-          eyecatching websites is what drives me.
-          <br /> <br />
-          My professional experience includes:
-        </p>
-        <li>2018 - Present: Website Developer at Vain Corp</li>
-        <li>2018 - 2019: Web Editor at IG Australia</li>
-        <li>2015 - 2017: Website Developer at DC Website Solutions</li>
-        <li>2014 - Present: Freelance Front-end Developer</li>
-        <br />
-        Feel free to contact me at{" "}
-        <span className="code-alt">hillierliam37@gmail.com</span>
+        <Tags tag="html" type="open" indent={-1} />
+        <Tags tag="body" type="open" indent={0} />
+        <div className="about-output-text">
+          <h1>About Me</h1>
+          <p>
+            Hey! Im <span className="code-alt">Liam Hillier</span> from{" "}
+            <span className="code-alt">Melbourne, Australia</span>. <br />
+            An entrepreneurial and driven digital content coordinator with 4
+            years of industry expertise working with leading CMS platforms in
+            the managerial process of maintaining, developing and reporting on
+            websites.
+            <br /> <br />
+            My professional experience includes:
+          </p>
+          <li>2018 - Present: Website Developer at Vain Corp</li>
+          <li>2018 - 2019: Web Editor at IG Australia</li>
+          <li>2015 - 2017: Website Developer at DC Website Solutions</li>
+          <li>2014 - Present: Freelance Front-end Developer</li>
+          <br />
+          Feel free to contact me at{" "}
+          <span className="code-alt">hillierliam37@gmail.com</span>
+        </div>
+        <Tags tag="body" type="open" indent={0} />
+        <Tags tag="html" type="close" indent={-1} />
       </div>
     </div>
   );
