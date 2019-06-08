@@ -5,7 +5,7 @@
 }
 
 .code-wrapper {
-  grid-column-start: 1;
+  grid-column-start: 2;
   display: block;
   width: 100%;
   height: auto;
@@ -15,9 +15,9 @@
 }
 
 .about-output-wrapper {
-  grid-column-start: 2;
+  grid-column-start: 1;
   text-align: left;
-  padding: 0px 50px;
+  padding: 0px 0px;
   display: block;
   margin: auto;
 }
@@ -125,7 +125,7 @@
     grid-template-columns: 100%;
     grid-template-rows: auto auto;
   }
-  .about-output-wrapper {
+  .code-wrapper {
     display: none;
   }
 }
