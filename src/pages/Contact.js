@@ -7,6 +7,7 @@ import {
   GoogleMap,
   Marker
 } from "react-google-maps";
+import NetlifyForm from "react-netlify-form";
 
 const mapStyle = [
   {
@@ -342,27 +343,26 @@ const Contact = () => {
           <Tags tag="h1" type="open" indent={0} />
           <h1>Contact Me</h1>
           <Tags tag="h1" type="close" indent={0} />
-          <form
-            name="contact"
-            method="POST"
-            data-netlify-recaptcha="true"
-            data-netlify="true"
-          >
-            <p>
-              <label>
-                Email: <input type="text" name="name" />
-              </label>
-            </p>
-            <p>
-              <label>
-                Message: <textarea name="message" />
-              </label>
-            </p>
-            <div data-netlify-recaptcha="true" />
-            <p>
-              <button type="submit">Send</button>
-            </p>
-          </form>
+          <NetlifyForm name="Contact Form">
+            {({ loading, error, success }) => (
+              <div>
+                {loading && <div>Loading...</div>}
+                {error && (
+                  <div>
+                    Your information was not sent. Please try again later.
+                  </div>
+                )}
+                {success && <div>Thank you for contacting us!</div>}
+                {!loading && !success && (
+                  <div>
+                    <input type="text" name="Name" required />
+                    <textarea name="Message" required />
+                    <button>Submit</button>
+                  </div>
+                )}
+              </div>
+            )}
+          </NetlifyForm>
         </div>
         <Tags tag="body" type="close" indent={0} />
         <Tags tag="html" type="close" indent={-1} />
