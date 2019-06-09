@@ -342,24 +342,15 @@ const Contact = () => {
           <Tags tag="h1" type="open" indent={0} />
           <h1>Contact Me</h1>
           <Tags tag="h1" type="close" indent={0} />
-          <form name="contact" method="POST" data-netlify="true">
+          <form
+            name="contact"
+            method="POST"
+            data-netlify-recaptcha="true"
+            data-netlify="true"
+          >
             <p>
               <label>
-                Your Name: <input type="text" name="name" />
-              </label>
-            </p>
-            <p>
-              <label>
-                Your Email: <input type="email" name="email" />
-              </label>
-            </p>
-            <p>
-              <label>
-                Your Role:{" "}
-                <select name="role[]" multiple>
-                  <option value="leader">Leader</option>
-                  <option value="follower">Follower</option>
-                </select>
+                Email: <input type="text" name="name" />
               </label>
             </p>
             <p>
@@ -367,6 +358,7 @@ const Contact = () => {
                 Message: <textarea name="message" />
               </label>
             </p>
+            <div data-netlify-recaptcha="true" />
             <p>
               <button type="submit">Send</button>
             </p>
