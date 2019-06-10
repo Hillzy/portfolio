@@ -30,7 +30,9 @@ class App extends Component {
         "code-alt": "#714182",
         "code-string": "#28961b",
         "code-dot": "#aeaeb2",
-        "code-hover": "#b2b2b2"
+        "code-hover": "#b2b2b2",
+        "work-card": "#b4b4ba",
+        "work-text": "#1d1e22"
       },
       dark: {
         "background-color": "#1d1e22",
@@ -46,7 +48,9 @@ class App extends Component {
         "code-alt": "#9899C5",
         "code-string": "#ABE67E",
         "code-dot": "#3C3E46",
-        "code-hover": "#2f3137"
+        "code-hover": "#2f3137",
+        "work-card": "#141518",
+        "work-text": "#d4d4dc"
       }
     },
     checked: true
@@ -97,7 +101,7 @@ class App extends Component {
             />
             <Route path="/about" exact component={About} />
             <Route path="/skills" exact component={Skills} />
-            <Route path="/mywork" exact component={MyWork} />
+            <Route path="/portfolio" exact component={MyWork} />
             <Route path="/contact" exact component={Contact} />
           </div>
         </div>

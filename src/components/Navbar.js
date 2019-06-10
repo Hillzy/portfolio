@@ -26,7 +26,7 @@ const Navbar = () => {
       <NavLink to="/about" exact activeClassName={"iconHighlight"}>
         <LinkIcon icon={aboutIcon} text="About" />
       </NavLink>
-      <NavLink to="/mywork" exact activeClassName={"iconHighlight"}>
+      <NavLink to="/portfolio" exact activeClassName={"iconHighlight"}>
         <LinkIcon icon={workIcon} text="My Work" />
       </NavLink>
       <NavLink to="/contact" exact activeClassName={"iconHighlight"}>

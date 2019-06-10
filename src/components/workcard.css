@@ -1,0 +1,49 @@
+.workCard {
+  background-color: var(--work-card);
+  display: inline-block;
+  border-radius: 10px;
+  width: 200px;
+  height: 300px;
+  cursor: pointer;
+  vertical-align: top;
+  margin-right: 50px;
+  margin-bottom: 50px;
+  transition: all 0.2s ease-in-out;
+}
+
+.workCard:hover {
+  transform: scale(1.1);
+}
+
+.workCard img {
+  width: 100%;
+}
+
+.work-text {
+  margin-top: -7px;
+  padding: 0 15px;
+  font-size: 14px;
+  text-align: left;
+  color: var(--work-text);
+}
+
+.work-text h3 {
+  font-weight: 500;
+}
+
+.work-text ul {
+  margin-top: -7px;
+}
+
+.work-text li {
+  list-style: none;
+}
+
+.work-text li::before {
+  content: "\2022"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: var(--highlight-col); /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -3em;
+}
