@@ -9,6 +9,7 @@ import ciscoSpark from "../assets/images/cisco-spark.png";
 import signalGroup from "../assets/images/signal-group.png";
 import singleProduct from "../assets/images/single-product-page.png";
 import hillzyCommerce from "../assets/images/hillzy-commerce.png";
+import hillzyEmail from "../assets/images/email.png";
 
 const MyWork = () => {
   return (
@@ -53,6 +54,11 @@ const MyWork = () => {
           title="Hillzy - E-Commerce"
           skills={["Design", "Woocommerce", "HTML", "CSS"]}
           imageSRC={hillzyCommerce}
+        />
+        <WorkCard
+          title="Hillzy - Email"
+          skills={["HTML", "CSS"]}
+          imageSRC={hillzyEmail}
         />
       </div>
     </div>
