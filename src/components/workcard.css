@@ -11,6 +11,12 @@
   transition: all 0.2s ease-in-out;
 }
 
+@media (max-width: 530px) {
+  .workCard {
+    margin-right: 0px;
+  }
+}
+
 .workCard:hover {
   transform: scale(1.1);
 }
