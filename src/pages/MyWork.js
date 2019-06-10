@@ -27,7 +27,7 @@ const MyWork = () => {
           URL="http://www.dental1.com.au/craigieburn/"
         />
         <WorkCard
-          title="Dental One - Locations page"
+          title="Dental One - Contact Form"
           skills={["PHP", "HTML", "CSS", "Contact-form 7"]}
           imageSRC={dentaloneContact}
           URL="http://www.dental1.com.au/contact-us/"
