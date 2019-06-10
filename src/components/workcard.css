@@ -6,8 +6,8 @@
   height: 300px;
   cursor: pointer;
   vertical-align: top;
-  margin-right: 50px;
-  margin-left: 50px;
+  margin-right: 25px;
+  margin-left: 25px;
   margin-bottom: 50px;
   transition: all 0.2s ease-in-out;
 }
