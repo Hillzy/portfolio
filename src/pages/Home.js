@@ -20,7 +20,7 @@ const Home = props => {
           </h1>
           <Tags tag="h1" type="close" indent={0} />
           <h5 className="home-subHeading">
-            Front End Developer / Reactjs / Wordpress / HTML+CSS
+            Front End Developer / Reactjs / HTML+CSS
           </h5>
           <Link to="/contact" className="home-cta">
             Contact me
