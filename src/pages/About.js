@@ -88,7 +88,7 @@ const About = props => {
         <div className="code-line">
           <div className="code-num">9</div>
           <div className="code-text code-indent3">
-            <span className="code-alt">this.</span>email :
+            email :
             <span className="code-string"> 'hillierliam37@gmail.com'</span>
           </div>
         </div>
