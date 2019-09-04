@@ -16,7 +16,7 @@ const Home = props => {
             Hi,
             <br />
             I'm <span className="home-text-highlight">Liam</span>,
-            <br />a web developer
+            <br />a web developer/coordinator
           </h1>
           <Tags tag="h1" type="close" indent={0} />
           <h5 className="home-subHeading">
