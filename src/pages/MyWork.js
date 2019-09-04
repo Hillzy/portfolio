@@ -10,64 +10,72 @@ import signalGroup from "../assets/images/signal-group.png";
 import singleProduct from "../assets/images/single-product-page.png";
 import hillzyCommerce from "../assets/images/hillzy-commerce.png";
 import hillzyEmail from "../assets/images/email.png";
+import tsa from "../assets/images/tsa2.png";
 
 const MyWork = () => {
   return (
     <div className="MyWork">
       <div className="Work-row-1">
         <WorkCard
+          title="Take Shape Adventures"
+          skills={["Wordpress", "HTML", "CSS"]}
+          imageSRC={tsa}
+          URL="htts://takeshapeadventures.com.au/"
+          num={1}
+        />
+        <WorkCard
           title="Dental One - Info page"
           skills={["Wordpress", "HTML", "CSS"]}
           imageSRC={dentalOneNoGap}
           URL="http://www.dental1.com.au/no-gap-dentistry/"
-          num={1}
+          num={2}
         />
         <WorkCard
           title="Dental One - Locations page"
           skills={["Wordpress", "HTML", "CSS"]}
           imageSRC={dentalOneLocations}
           URL="http://www.dental1.com.au/craigieburn/"
-          num={2}
+          num={3}
         />
         <WorkCard
           title="Dental One - Contact Form"
           skills={["PHP", "HTML", "CSS", "Contact-form 7"]}
           imageSRC={dentaloneContact}
           URL="http://www.dental1.com.au/contact-us/"
-          num={3}
+          num={4}
         />
         <WorkCard
           title="Cisco Spark Landing Page"
           skills={["HTML", "CSS", "PHP", "*Not my design"]}
           imageSRC={ciscoSpark}
           URL="http://spark.melbourneglobal.com/"
-          num={4}
+          num={5}
         />
         <WorkCard
           title="Signal Group - E-Commerce"
           skills={["Intial setup", "Wordpress", "PHP/CSS", "*Not my design"]}
           imageSRC={signalGroup}
           URL="https://signalgroup.com.au/"
-          num={5}
+          num={6}
         />
         <WorkCard
           title="Mobile Ecommerce Single Product"
           skills={["Adobe XD", "HTML", "CSS", "Woocommerce"]}
           imageSRC={singleProduct}
-          num={6}
+          num={7}
         />
         <WorkCard
           title="Hillzy - E-Commerce"
           skills={["Design", "Woocommerce", "HTML", "CSS"]}
           imageSRC={hillzyCommerce}
-          num={7}
+          num={8}
         />
         <WorkCard
           title="Hillzy - Email"
           skills={["HTML", "CSS"]}
           imageSRC={hillzyEmail}
           URL="https://github.com/Hillzy/projects/tree/master/email"
-          num={8}
+          num={9}
         />
       </div>
     </div>
