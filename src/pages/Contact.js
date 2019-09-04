@@ -343,6 +343,7 @@ const Contact = () => {
           <Tags tag="h1" type="open" indent={0} />
           <h1>Contact Me</h1>
           <Tags tag="h1" type="close" indent={0} />
+          <h3>Email me at hillierliam37@gmail.com</h3>
         </div>
         <Tags tag="body" type="close" indent={0} />
         <Tags tag="html" type="close" indent={-1} />
