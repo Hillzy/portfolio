@@ -16,12 +16,10 @@ const Home = props => {
             Hi,
             <br />
             I'm <span className="home-text-highlight">Liam</span>,
-            <br />a web developer/coordinator
+            <br />a web developer
           </h1>
           <Tags tag="h1" type="close" indent={0} />
-          <h5 className="home-subHeading">
-            Front End Developer / Managing / Marketing / Analysing
-          </h5>
+          <h5 className="home-subHeading">Front End Developer</h5>
           <Link to="/contact" className="home-cta">
             Contact me
           </Link>
