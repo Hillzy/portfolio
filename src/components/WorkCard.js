@@ -34,6 +34,15 @@ const WorkCard = props => {
   if (props.num === 8) {
     workClass.push("item8");
   }
+  if (props.num === 9) {
+    workClass.push("item9");
+  }
+  if (props.num === 10) {
+    workClass.push("item10");
+  }
+  if (props.num === 11) {
+    workClass.push("item11");
+  }
   return (
     <div className={workClass.join(" ")} onClick={openWebsite}>
       <img src={props.imageSRC} />
