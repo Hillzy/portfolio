@@ -22,7 +22,7 @@ const MyWork = () => {
           title="Wendy Samantha Productions"
           skills={["Wordpress", "HTML", "CSS"]}
           imageSRC={wendy}
-          URL="http//dev.wendysamantha.com/"
+          URL="http://dev.wendysamantha.com/"
           num={1}
         />
         <WorkCard
