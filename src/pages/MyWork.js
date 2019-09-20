@@ -90,7 +90,6 @@ const MyWork = () => {
           title="Hillzy - Email"
           skills={["HTML", "CSS"]}
           imageSRC={hillzyEmail}
-          URL="https://github.com/Hillzy/projects/tree/master/email"
           num={11}
         />
       </div>
