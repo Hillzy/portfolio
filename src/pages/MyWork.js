@@ -11,71 +11,87 @@ import singleProduct from "../assets/images/single-product-page.png";
 import hillzyCommerce from "../assets/images/hillzy-commerce.png";
 import hillzyEmail from "../assets/images/email.png";
 import tsa from "../assets/images/tsa2.png";
+import tsajap from "../assets/images/tsa-jap.png";
+import wendy from "../assets/images/wendy.png";
 
 const MyWork = () => {
   return (
     <div className="MyWork">
       <div className="Work-row-1">
         <WorkCard
+          title="Wendy Samantha Productions"
+          skills={["Wordpress", "HTML", "CSS"]}
+          imageSRC={wendy}
+          URL="http//dev.wendysamantha.com/"
+          num={1}
+        />
+        <WorkCard
+          title="TSA - Japan Landing Page"
+          skills={["Wordpress", "HTML", "CSS"]}
+          imageSRC={tsajap}
+          URL="https://takeshapeadventures.com.au/japan/"
+          num={2}
+        />
+        <WorkCard
           title="Take Shape Adventures"
           skills={["Wordpress", "HTML", "CSS"]}
           imageSRC={tsa}
           URL="https://takeshapeadventures.com.au/"
-          num={1}
+          num={3}
         />
         <WorkCard
           title="Dental One - Info page"
           skills={["Wordpress", "HTML", "CSS"]}
           imageSRC={dentalOneNoGap}
           URL="http://www.dental1.com.au/no-gap-dentistry/"
-          num={2}
+          num={4}
         />
         <WorkCard
           title="Dental One - Locations page"
           skills={["Wordpress", "HTML", "CSS"]}
           imageSRC={dentalOneLocations}
           URL="http://www.dental1.com.au/craigieburn/"
-          num={3}
+          num={5}
         />
         <WorkCard
           title="Dental One - Contact Form"
           skills={["PHP", "HTML", "CSS", "Contact-form 7"]}
           imageSRC={dentaloneContact}
           URL="http://www.dental1.com.au/contact-us/"
-          num={4}
+          num={6}
         />
         <WorkCard
           title="Cisco Spark Landing Page"
           skills={["HTML", "CSS", "PHP", "*Not my design"]}
           imageSRC={ciscoSpark}
           URL="http://spark.melbourneglobal.com/"
-          num={5}
+          num={7}
         />
         <WorkCard
           title="Signal Group - E-Commerce"
           skills={["Intial setup", "Wordpress", "PHP/CSS", "*Not my design"]}
           imageSRC={signalGroup}
           URL="https://signalgroup.com.au/"
-          num={6}
+          num={8}
         />
         <WorkCard
           title="Mobile Ecommerce Single Product"
           skills={["Adobe XD", "HTML", "CSS", "Woocommerce"]}
           imageSRC={singleProduct}
-          num={7}
+          num={9}
         />
         <WorkCard
           title="Hillzy - E-Commerce"
           skills={["Design", "Woocommerce", "HTML", "CSS"]}
           imageSRC={hillzyCommerce}
-          num={8}
+          num={10}
         />
         <WorkCard
           title="Hillzy - Email"
           skills={["HTML", "CSS"]}
           imageSRC={hillzyEmail}
           URL="https://github.com/Hillzy/projects/tree/master/email"
-          num={9}
+          num={11}
         />
       </div>
     </div>
